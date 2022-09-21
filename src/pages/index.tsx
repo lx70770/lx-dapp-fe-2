@@ -48,20 +48,45 @@ const App: React.FC = () => {
 
   return (
     <div className={styles.mint_wrap}>
-      {/* <div className={styles.mint_button} onClick={firstButton}></div> */}
-      <div className={styles.socal_button}>
-        <a href="https://twitter.com/thenftisdead" target="_blank">
-          <img src={twitter} alt="" />
-        </a>
-        <a href="https://opensea.io/collection/nftisdead" target="_blank">
-          <img src={opensea} alt="" />
-        </a>
-        {/* <a href="https://www.instagram.com/thenftisdead" target="_blank">
-          <img src={ins} alt="" />
-        </a> */}
+      <div className={styles.mint}>
+        <div className={styles.fuck_off}>FUCK OFF CENTRALIZED</div>
+        <div className={styles.fuck_off}>
+          <div>free mint</div>
+          <div>{totalSupply}/999</div>
+        </div>
+        <div className={styles.button} onClick={firstButton}>
+          {Number(totalSupply) >= 999 ? 'sold out' : 'mint'}
+        </div>
+        <div className={styles.socal_button}>
+          <a href="https://twitter.com/CryptoPowellNFT" target="_blank">
+            <img src={twitter} alt="" />
+          </a>
+          <a href="https://opensea.io/collection/fuckoffcentralized" target="_blank">
+            <img src={opensea} alt="" />
+          </a>
+        </div>
+        <div></div>
       </div>
+      <div className={styles.bo}></div>
     </div>
   )
+
+  // return (
+  //   <div className={styles.mint_wrap}>
+  //     {/* <div className={styles.mint_button} onClick={firstButton}></div> */}
+  //     <div className={styles.socal_button}>
+  //       <a href="https://twitter.com/thenftisdead" target="_blank">
+  //         <img src={twitter} alt="" />
+  //       </a>
+  //       <a href="https://opensea.io/collection/nftisdead" target="_blank">
+  //         <img src={opensea} alt="" />
+  //       </a>
+  //       {/* <a href="https://www.instagram.com/thenftisdead" target="_blank">
+  //         <img src={ins} alt="" />
+  //       </a> */}
+  //     </div>
+  //   </div>
+  // )
 }
 
 export default App
