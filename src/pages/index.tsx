@@ -48,14 +48,15 @@ const App: React.FC = () => {
 
   return (
     <div className={styles.mint_wrap}>
+      <div className={styles.bo}></div>
       <div className={styles.mint}>
-        <div className={styles.fuck_off}>FUCK OFF CENTRALIZED</div>
-        <div className={styles.fuck_off}>
-          <div>free mint</div>
-          <div>{totalSupply}/999</div>
+        <div className={styles.fuck_off}>Crypto Powell.</div>
+        <div className={styles.mint_info}>
+          <div>supply:</div>
+          <div>{totalSupply}/5555</div>
         </div>
         <div className={styles.button} onClick={firstButton}>
-          {Number(totalSupply) >= 999 ? 'sold out' : 'mint'}
+          {Number(totalSupply) >= 999 ? 'sold out' : 'free mint'}
         </div>
         <div className={styles.socal_button}>
           <a href="https://twitter.com/CryptoPowellNFT" target="_blank">
@@ -67,7 +68,6 @@ const App: React.FC = () => {
         </div>
         <div></div>
       </div>
-      <div className={styles.bo}></div>
     </div>
   )
 
