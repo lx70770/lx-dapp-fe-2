@@ -28,7 +28,7 @@ const ethParams: AddEthereumChainParameter = {
   blockExplorerUrls: ['https://etherscan.io'],
 }
 
-export const LX_MFER_ADDRESS = '0xA104E267F0b10c01dc1f06391300f44a1a3c75cA'
+export const LX_MFER_ADDRESS = '0x3905e55648dfA9Cb7476c82f97b631F9Bc545eF6'
 
 export const DEFAULT_JSON_PROVIDER = new JsonRpcProvider()
 
