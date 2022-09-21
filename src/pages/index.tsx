@@ -62,7 +62,7 @@ const App: React.FC = () => {
           <a href="https://twitter.com/CryptoPowellNFT" target="_blank">
             <img src={twitter} alt="" />
           </a>
-          <a href="https://opensea.io/collection/fuckoffcentralized" target="_blank">
+          <a href="https://opensea.io/collection/cryptopowell" target="_blank">
             <img src={opensea} alt="" />
           </a>
         </div>
